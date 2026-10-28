@@ -51,3 +51,8 @@ With reduced motion, no JS or no WebGL, each chapter shows an art-directed still
 - First instinct was a cream editorial site with photo cards. Replaced with emerald ground and a live marble because the packaging is emerald and the product is swirled.
 - Dropped the countdown loader: an ice cream shop earns no loader.
 - No page-transition curtain; continuity comes from the shared emerald ground and the hero intro. Noted as a decision.
+
+## Decisions made during QA
+- Inner pages are still at rest on purpose; the live motion belongs to the home churn. Their life is in the reveals and hovers.
+- Chapter copy is linked to scroll with CSS view timelines: it arrives with its scoop and leaves before the next one, so text never sits on the scoop on phones.
+- The no-WebGL stills are frames of the real shader, rendered by `scripts/render-stills.mjs`. Rerun it after changing a chapter's colors.

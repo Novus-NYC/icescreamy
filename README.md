@@ -1,62 +1,22 @@
-# Purpose
-This repository is the base template that should be used for all future businesses, including basic files such as navbar, footer, and other configs.
+# IceScreamy
 
-# Business Name
+Website for IceScreamy (Icescreamy LLC), Caribbean-inspired artisanal ice cream from Brooklyn, NY.
 
-Replace this README with business-specific details.
+- **Stack:** Next.js (App Router, TypeScript), plain CSS tokens in `src/app/globals.css`, GSAP for the frame clock, raw WebGL for the home scene.
+- **Business facts:** all in `src/data/site.ts`. Edit there; every page reads from it.
+- **Design record:** `DESIGN.md` (concept, palette, type, motion rules).
+- **Home scroll scene:** `src/scene/churn.ts` (shader), `src/scene/chapters.ts` (one marble recipe per chapter), `src/components/ChurnStage.tsx` (driver).
 
----
-
-## 🚀 Overview
-
-Short description of the business and what this website is for.
-
-Example:
-"This website serves as the official online presence for [Business Name], showcasing services, contact information, and brand identity."
-
----
-
-## 🛠 Tech Stack
-
-- Next.js (App Router)
-- TypeScript
-- Tailwind CSS
-- Hosted on Vercel
-
----
-
-## 📂 Project Structure
-
-- `src/app` → App Router (homepage, layout, globals)
-- `src/app/pages` → Site pages (About, Contact, etc.)
-- `src/lib/components` → Shared UI components (Navbar/Footer)
-- `public` → Static assets
-
----
-
-## 🧑‍💻 Development
-
-Install dependencies:
+## Run
 
 ```bash
 npm install
-npm install --save-dev @types/react
+npm run dev            # http://localhost:3000
+npm run build && npm start
 ```
 
-Run locally:
+After changing a chapter's colors, regenerate the reduced-motion stills:
 
 ```bash
-npm run dev
+node scripts/render-stills.mjs
 ```
-
----
-
-## ✏️ Customization Checklist
-
-- [ ] Replace Business Name in navbar + footer
-- [ ] Update metadata in `src/app/layout.tsx`
-- [ ] Replace homepage content (`src/app/page.tsx`)
-- [ ] Update About + Contact pages (`src/app/pages/*`)
-- [ ] Replace favicon + assets in `public/`
-- [ ] Update SEO metadata
-- [ ] (Optional) Update Novus credit link text / URL in the footer

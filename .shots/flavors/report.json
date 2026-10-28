@@ -3,11 +3,11 @@
   "errors": [],
   "failed": [],
   "desktop": {
-    "loadMs": 47,
+    "loadMs": 43,
     "loaderMs": null,
-    "settledMs": 2166,
+    "settledMs": 2185,
     "vitals": {
-      "lcpMs": 996,
+      "lcpMs": 1000,
       "lcpElement": "h3",
       "cls": 0
     },
@@ -35,11 +35,11 @@
   },
   "mobile": {
     "throttled": true,
-    "loadMs": 3672,
+    "loadMs": 4159,
     "loaderMs": null,
-    "settledMs": 5594,
+    "settledMs": 6079,
     "vitals": {
-      "lcpMs": 924,
+      "lcpMs": 940,
       "lcpElement": "p.page-top__lede",
       "cls": 0
     },
@@ -54,7 +54,7 @@
     "title": "Flavors | IceScreamy",
     "glOn": false,
     "scrollFps": {
-      "fps": 61,
+      "fps": 60,
       "worstFrameMs": 17
     }
   },
@@ -146,8 +146,11 @@
         "label": "a \"IceScreamy home\"",
         "interactive": true,
         "primary": true,
-        "react": "none",
-        "changed": []
+        "react": "moves",
+        "changed": [
+          "translate",
+          "rotate"
+        ]
       },
       {
         "shot": "h-03",
@@ -192,7 +195,6 @@
       }
     ],
     "noHoverChange": [
-      "h-02 a \"IceScreamy home\"",
       "h-03 a \"Flavors\""
     ],
     "colorOnly": [],

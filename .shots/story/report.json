@@ -3,15 +3,15 @@
   "errors": [],
   "failed": [],
   "desktop": {
-    "loadMs": 42,
+    "loadMs": 45,
     "loaderMs": null,
-    "settledMs": 2158,
+    "settledMs": 2169,
     "vitals": {
-      "lcpMs": 996,
+      "lcpMs": 24,
       "lcpElement": "p.story-split__quote",
       "cls": 0
     },
-    "height": 2947,
+    "height": 2925,
     "overflowX": false,
     "offenders": [],
     "h1": [
@@ -35,15 +35,15 @@
   },
   "mobile": {
     "throttled": true,
-    "loadMs": 2138,
+    "loadMs": 2184,
     "loaderMs": null,
-    "settledMs": 4075,
+    "settledMs": 4139,
     "vitals": {
-      "lcpMs": 3100,
+      "lcpMs": 648,
       "lcpElement": "p.story-split__quote",
       "cls": 0
     },
-    "height": 2395,
+    "height": 2289,
     "overflowX": false,
     "offenders": [],
     "h1": [
@@ -145,8 +145,11 @@
         "label": "a \"IceScreamy home\"",
         "interactive": true,
         "primary": true,
-        "react": "none",
-        "changed": []
+        "react": "moves",
+        "changed": [
+          "translate",
+          "rotate"
+        ]
       },
       {
         "shot": "h-03",
@@ -208,9 +211,7 @@
         ]
       }
     ],
-    "noHoverChange": [
-      "h-02 a \"IceScreamy home\""
-    ],
+    "noHoverChange": [],
     "colorOnly": [],
     "covered": [],
     "cursorFollower": false

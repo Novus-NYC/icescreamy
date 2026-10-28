@@ -3,11 +3,11 @@
   "errors": [],
   "failed": [],
   "desktop": {
-    "loadMs": 40,
+    "loadMs": 46,
     "loaderMs": null,
-    "settledMs": 2179,
+    "settledMs": 2209,
     "vitals": {
-      "lcpMs": 980,
+      "lcpMs": 996,
       "lcpElement": "p",
       "cls": 0
     },
@@ -38,9 +38,9 @@
   },
   "mobile": {
     "throttled": true,
-    "loadMs": 2152,
+    "loadMs": 2153,
     "loaderMs": null,
-    "settledMs": 4089,
+    "settledMs": 4090,
     "vitals": {
       "lcpMs": 940,
       "lcpElement": "h1.page-h",
@@ -161,8 +161,11 @@
         "label": "a \"IceScreamy home\"",
         "interactive": true,
         "primary": true,
-        "react": "none",
-        "changed": []
+        "react": "moves",
+        "changed": [
+          "translate",
+          "rotate"
+        ]
       },
       {
         "shot": "h-04",
@@ -211,9 +214,7 @@
         ]
       }
     ],
-    "noHoverChange": [
-      "h-03 a \"IceScreamy home\""
-    ],
+    "noHoverChange": [],
     "colorOnly": [],
     "covered": [],
     "cursorFollower": false

@@ -3,11 +3,11 @@
   "errors": [],
   "failed": [],
   "desktop": {
-    "loadMs": 83,
+    "loadMs": 46,
     "loaderMs": null,
     "settledMs": null,
     "vitals": {
-      "lcpMs": 64,
+      "lcpMs": 28,
       "lcpElement": "img",
       "cls": 0
     },
@@ -25,8 +25,8 @@
     "title": "IceScreamy | Caribbean-inspired ice cream, Brooklyn NY",
     "glOn": true,
     "scrollFps": {
-      "fps": 54,
-      "worstFrameMs": 50
+      "fps": 56,
+      "worstFrameMs": 33
     },
     "nav": {
       "href": "/flavors",
@@ -38,7 +38,7 @@
   },
   "mobile": {
     "throttled": true,
-    "loadMs": 2952,
+    "loadMs": 2866,
     "loaderMs": null,
     "settledMs": null,
     "vitals": {

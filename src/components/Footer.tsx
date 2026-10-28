@@ -22,7 +22,7 @@ export default function Footer() {
           <p>
             <a className="u" href={`mailto:${site.email}`}>{site.email}</a><br />
             <a className="u" href={site.phone.href}>{site.phone.display}</a><br />
-            <a className="u" href={site.instagram.url} target="_blank" rel="noreferrer">Instagram {site.instagram.handle}</a>
+            <a className="u" href={site.instagram.url} target="_blank" rel="noopener noreferrer">Instagram {site.instagram.handle}</a>
           </p>
         </div>
         <nav aria-label="Footer">
@@ -36,7 +36,7 @@ export default function Footer() {
       <img className="foot__logo" src="/media/logo-gold.webp" alt={site.name} width={900} height={265} loading="lazy" decoding="async" />
       <div className="foot__base">
         <p>© {new Date().getFullYear()} {site.legalName}</p>
-        <a className="u" href="https://novusnyc.org" target="_blank" rel="noreferrer">Made by Novus</a>
+        <a className="u" href="https://novusnyc.org" target="_blank" rel="noopener noreferrer">Made by Novus</a>
       </div>
     </footer>
   );

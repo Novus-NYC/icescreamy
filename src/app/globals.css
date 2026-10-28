@@ -100,7 +100,7 @@ em { font-style: italic; }
   padding: 0 var(--margin);
   transition: background-color 0.4s, box-shadow 0.4s;
 }
-.bar.is-solid { background: rgb(6 34 26 / 0.9); box-shadow: 0 1px 0 var(--line); }
+.bar.is-solid, html:not(.js) .bar { background: rgb(6 34 26 / 0.9); box-shadow: 0 1px 0 var(--line); }
 @supports (backdrop-filter: blur(1px)) { .bar.is-solid { background: rgb(6 34 26 / 0.72); backdrop-filter: blur(14px) saturate(1.2); } }
 .bar__logo { display: block; width: clamp(118px, 11vw, 150px); position: relative; z-index: 2; }
 .bar__logo img { transition: translate 0.5s var(--ease), rotate 0.5s var(--ease); transform-origin: 40% 60%; }
@@ -241,6 +241,7 @@ em { font-style: italic; }
   .ch__h { font-size: clamp(2.3rem, 10vw, 3.2rem); }
   .ch__flavor { font-size: clamp(2.6rem, 12vw, 3.8rem); }
   .ch__cue { display: none; }
+  .churn__skyline { bottom: auto; top: 45svh; height: 14svh; }
   .ch__lede { margin-top: 18px; }
   .ch__actions { margin-top: 24px; }
   .ch__p { margin-top: 16px; }
