@@ -3,11 +3,11 @@
   "errors": [],
   "failed": [],
   "desktop": {
-    "loadMs": 62,
+    "loadMs": 83,
     "loaderMs": null,
     "settledMs": null,
     "vitals": {
-      "lcpMs": 188,
+      "lcpMs": 64,
       "lcpElement": "img",
       "cls": 0
     },
@@ -15,7 +15,7 @@
     "overflowX": false,
     "offenders": [],
     "h1": [
-      "Caribbean‑inspired ice cream,\ncrafted in Brooklyn."
+      "Caribbean-inspired ice cream,\ncrafted in Brooklyn."
     ],
     "smallTargets": [
       "hello@icescreamy.com 178x22",
@@ -25,8 +25,8 @@
     "title": "IceScreamy | Caribbean-inspired ice cream, Brooklyn NY",
     "glOn": true,
     "scrollFps": {
-      "fps": 50,
-      "worstFrameMs": 67
+      "fps": 54,
+      "worstFrameMs": 50
     },
     "nav": {
       "href": "/flavors",
@@ -38,19 +38,19 @@
   },
   "mobile": {
     "throttled": true,
-    "loadMs": 2304,
+    "loadMs": 2952,
     "loaderMs": null,
     "settledMs": null,
     "vitals": {
-      "lcpMs": 964,
-      "lcpElement": "h1.ch__title",
+      "lcpMs": 1992,
+      "lcpElement": "img.still__scoop",
       "cls": 0
     },
     "height": 8160,
     "overflowX": false,
     "offenders": [],
     "h1": [
-      "Caribbean‑inspired ice cream,\ncrafted in Brooklyn."
+      "Caribbean-inspired ice cream,\ncrafted in Brooklyn."
     ],
     "smallTargets": [
       "hello@icescreamy.com 178x22",
@@ -61,7 +61,7 @@
     "glOn": true,
     "scrollFps": {
       "fps": 60,
-      "worstFrameMs": 17
+      "worstFrameMs": 33
     }
   },
   "files": [
@@ -203,8 +203,11 @@
         "label": "a \"IceScreamy home\"",
         "interactive": true,
         "primary": true,
-        "react": "none",
-        "changed": []
+        "react": "moves",
+        "changed": [
+          "translate",
+          "rotate"
+        ]
       },
       {
         "shot": "h-07",
@@ -220,9 +223,7 @@
         ]
       }
     ],
-    "noHoverChange": [
-      "h-06 a \"IceScreamy home\""
-    ],
+    "noHoverChange": [],
     "colorOnly": [],
     "covered": [],
     "cursorFollower": false
