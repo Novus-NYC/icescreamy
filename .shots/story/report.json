@@ -1,0 +1,227 @@
+{
+  "url": "http://127.0.0.1:4400/story",
+  "errors": [],
+  "failed": [],
+  "desktop": {
+    "loadMs": 42,
+    "loaderMs": null,
+    "settledMs": 2158,
+    "vitals": {
+      "lcpMs": 996,
+      "lcpElement": "p.story-split__quote",
+      "cls": 0
+    },
+    "height": 2947,
+    "overflowX": false,
+    "offenders": [],
+    "h1": [
+      "Caribbean roots.\nBrooklyn bold."
+    ],
+    "smallTargets": [],
+    "glHidden": [],
+    "title": "Our story | IceScreamy",
+    "glOn": false,
+    "scrollFps": {
+      "fps": 60,
+      "worstFrameMs": 17
+    },
+    "nav": {
+      "href": "/",
+      "scrollYAfter": 0,
+      "title": "IceScreamy | Caribbean-inspired ice cream, Brooklyn NY"
+    },
+    "idleMotion": false,
+    "idleAt": null
+  },
+  "mobile": {
+    "throttled": true,
+    "loadMs": 2138,
+    "loaderMs": null,
+    "settledMs": 4075,
+    "vitals": {
+      "lcpMs": 3100,
+      "lcpElement": "p.story-split__quote",
+      "cls": 0
+    },
+    "height": 2395,
+    "overflowX": false,
+    "offenders": [],
+    "h1": [
+      "Caribbean roots.\nBrooklyn bold."
+    ],
+    "smallTargets": [],
+    "glHidden": [],
+    "title": "Our story | IceScreamy",
+    "glOn": false,
+    "scrollFps": {
+      "fps": 60,
+      "worstFrameMs": 17
+    }
+  },
+  "files": [
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/d-00-firstpaint.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/d-01-hero.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/d-02-scroll.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/d-03-scroll.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/d-04-scroll.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/d-05-scroll.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/d-06-scroll.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/d-07-scroll.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/d-90-transition-a.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/d-90-transition-b.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/d-90-transition-c.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/d-91-after-nav.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/d-92-back.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/k-01-focus.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/k-02-focus.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/k-03-focus.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/k-04-focus.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/h-01-rest.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/h-01-hover.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/h-02-rest.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/h-02-hover.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/h-03-rest.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/h-03-hover.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/h-04-rest.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/h-04-hover.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/h-05-rest.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/h-05-hover.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/h-06-rest.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/h-06-hover.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/h-07-rest.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/h-07-hover.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/m-01-hero.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/m-02-scroll.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/m-03-scroll.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/m-04-scroll.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/m-05-scroll.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/m-06-scroll.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/r-01-hero.png",
+    "/Users/henryzhao/Desktop/Volta/icescreamy/.shots/story/r-02-mid.png"
+  ],
+  "notes": [
+    "desktop FPS runs headless on a software GPU: treat it as a floor, not a measurement of real hardware",
+    "mobile runs at 4x CPU slowdown on slow 4G: mobile.vitals and mobile.scrollFps are the numbers that count",
+    "loadMs: ms from navigation to the load event, null if it had not fired after 30 s (desktop) or 60 s (phone); a heavy page takes long, while visitors see content at vitals.lcpMs. loaderMs: ms until the #loader ended, null when the page has none",
+    "settledMs: ms from navigation by which the first screen stopped changing, never before the fixed wait. null: still changing at the cap, either a long intro or continuous motion (a live shader, video); d-01-hero / m-01-hero tell which. reduced.moving: the screen was still changing 1.5 s after load with reduced motion on"
+  ],
+  "keyboard": {
+    "stops": [
+      "a \"Skip to content\"",
+      "a \"IceScreamy home\"",
+      "a \"Flavors\"",
+      "a \"Our story\"",
+      "a \"Events & partners\"",
+      "a \"Order online\"",
+      "a \"Taste the collection →\"",
+      "a \"Order online\"",
+      "a \"hello@icescreamy.com\"",
+      "a \"347-849-7924\"",
+      "a \"Instagram @icescreamy_\"",
+      "a \"Home\""
+    ],
+    "skipLinkFirst": true,
+    "noVisibleFocus": [],
+    "invisibleFocus": [],
+    "stuck": false
+  },
+  "hover": {
+    "targets": [
+      {
+        "shot": "h-01",
+        "label": "a \"Taste the collection\"",
+        "interactive": true,
+        "primary": true,
+        "react": "moves",
+        "changed": [
+          "color",
+          "borderColor",
+          "textDecorationColor",
+          "translate"
+        ]
+      },
+      {
+        "shot": "h-02",
+        "label": "a \"IceScreamy home\"",
+        "interactive": true,
+        "primary": true,
+        "react": "none",
+        "changed": []
+      },
+      {
+        "shot": "h-03",
+        "label": "a \"Flavors\"",
+        "interactive": true,
+        "primary": true,
+        "react": "moves",
+        "changed": [
+          "color",
+          "borderColor",
+          "textDecorationColor",
+          "backgroundSize"
+        ]
+      },
+      {
+        "shot": "h-04",
+        "label": "a \"Order online\"",
+        "interactive": true,
+        "primary": true,
+        "react": "moves",
+        "changed": [
+          "translate"
+        ]
+      },
+      {
+        "shot": "h-05",
+        "label": "a \"Order online\"",
+        "interactive": true,
+        "primary": false,
+        "react": "moves",
+        "changed": [
+          "translate"
+        ]
+      },
+      {
+        "shot": "h-06",
+        "label": "a \"hello@icescreamy.com\"",
+        "interactive": true,
+        "primary": false,
+        "react": "moves",
+        "changed": [
+          "color",
+          "borderColor",
+          "textDecorationColor",
+          "backgroundSize"
+        ]
+      },
+      {
+        "shot": "h-07",
+        "label": "a \"Home\"",
+        "interactive": true,
+        "primary": false,
+        "react": "moves",
+        "changed": [
+          "color",
+          "borderColor",
+          "textDecorationColor",
+          "backgroundSize"
+        ]
+      }
+    ],
+    "noHoverChange": [
+      "h-02 a \"IceScreamy home\""
+    ],
+    "colorOnly": [],
+    "covered": [],
+    "cursorFollower": false
+  },
+  "reduced": {
+    "hiddenText": 0,
+    "moving": false
+  },
+  "a11y": {
+    "violations": [],
+    "serious": 0,
+    "contrastNeedsReview": 14
+  }
+}
